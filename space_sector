@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maximum Reality: Space Exploration</title>
+<style>
+    body { font-family: monospace; background: #000; color: #fff; margin: 0; padding: 20px; line-height: 1.6; }
+    h1, h2 { color: #00e5ff; }
+    h2 { margin-top: 40px; }
+    iframe { width: 100%; max-width: 500px; aspect-ratio: 9/16; border: 2px solid #00e5ff; margin-bottom: 20px; display: block; }
+    a { color: #ff00ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .category { margin-bottom: 50px; }
+</style>
+</head>
+<body>
+
+<h1>Maximum Reality: Space Exploration Sector</h1>
+<p>Logs, reports, and mission videos from intergalactic adventures with Lori, Azul, Mochkil, and Alien Kaye.</p>
+
+<div class="category">
+<h2>🌌 Neptune Missions</h2>
+<iframe src="https://www.youtube.com/embed/ARcp39_eelo?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/-J46nhdY-9o?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/BxFcV-ptsdA?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+<div class="category">
+<h2>🪐 Uranus & Saturn Broadcasts</h2>
+<iframe src="https://www.youtube.com/embed/cdMqkCasvto?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+<div class="category">
+<h2>🌙 Moon Missions</h2>
+<iframe src="https://www.youtube.com/embed/CrlD8DfUmbE?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/gdl1axRpY88?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/WQ8TtE-HR1U?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/JpP6dwe1VgM?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/IziIZBoPs_o?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+<div class="category">
+<h2>🏙 Mars Missions</h2>
+<iframe src="https://www.youtube.com/embed/cRx_Ow-9A4Y?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/zGhAbKW70SE?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+<div class="category">
+<h2>👽 Alien Kaye Logs</h2>
+<iframe src="https://www.youtube.com/embed/Bp6Dcg4TaJw?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/i_57c8f82yI?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/vgcMPgtN5fE?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/TfcNXdYidgU?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/I-Lk3yyU_UE?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/b-mpqnlJUrI?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/s41YpwHz9Z0?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/s1DWZk5JLpE?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/b8eqhX7-Wqg?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/vPgW3g9Gr7Y?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/blwBPBc-1cw?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/uZIxmOwNoqw?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/WegzaResYJM?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9nQm2OOWCTM?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/JGO-jUt5tmw?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/NXDUSw3NNmE?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/rZkKiNGvPq0?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ttg3lzzH25c?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/b4bI1H6mzT0?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/FEnaAZ90XV8?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/rN0o_xrHVNw?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+<div class="category">
+<h2>🚀 Azul Adventures</h2>
+<iframe src="https://www.youtube.com/embed/btbXv5iqewg?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/k1k0rsL7ehM?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/pyufx8sXZSE?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+<div class="category">
+<h2>🛸 UFO & Intergalactic Encounters</h2>
+<iframe src="https://www.youtube.com/embed/7Xr8_lJ_ffE?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/CN3x7vuTiaU?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/771E50M2lgg?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/XkAIGwhRy7U?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/c1Alv5J4Zqc?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+<div class="category">
+<h2>🎭 Pop Culture / Miscellaneous</h2>
+<iframe src="https://www.youtube.com/embed/WAbR67qxSOE?rel=0&controls=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/xFVzQAHPbrM?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+<div class="category">
+<h2>🐾 Mochkil Cosmic Chaos</h2>
+<iframe src="https://www.youtube.com/embed/I5f5vy6fV_4?rel=0&controls=1" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
