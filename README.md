@@ -141,3 +141,32 @@ A living archive of interplanetary missions, misadventures, and extraterrestrial
 🎥 [Watch](https://youtube.com/shorts/c1Alv5J4Zqc?si=hxbbW2A7WO-sJm0p)
 
 ---
+- **Alien Kaye gets invasion advice from an Asogian**  
+🎥 [Watch](https://youtube.com/shorts/NXDUSw3NNmE?si=G3kN4uaPZ9P_Yqi8)
+
+- **Mochkil’s Cosmic Chaos**  
+🎥 [Watch](https://youtube.com/shorts/I5f5vy6fV_4?si=72952p_YcupZ1HMp)
+
+- **Alien Kaye’s Anti-Gravity Device**  
+🎥 [Watch](https://youtube.com/shorts/rZkKiNGvPq0?si=HiFZCfDphApWgpot)
+
+- **Alien Kaye: Earth’s Deadliest Weapon (Report)**  
+🎥 [Watch](https://youtube.com/shorts/ttg3lzzH25c?si=b8iDTOhrEO0Cw3wH)
+
+- **Alien Kaye’s Plan (Decaf)**  
+🎥 [Watch](https://youtube.com/shorts/b4bI1H6mzT0?si=qY0_hOvBNZFrBreU)
+
+- **Alien Kaye’s Circle Back (Coffee / Decaf)**  
+🎥 [Watch](https://youtube.com/shorts/FEnaAZ90XV8?si=Tz1lTKmaKqCZZh90)
+
+- **Azul Explores Space (Chibi)**  
+🎥 [Watch](https://youtube.com/shorts/k1k0rsL7ehM?si=uOyZtmss-cqwd27A)
+
+- **Forgotten Origins**  
+🎥 [Watch](https://youtube.com/shorts/RkaHkWmLRbE?si=fbw3oDJPv2pJ7qpk)
+
+- **Galactic Handshake**  
+🎥 [Watch](https://youtube.com/shorts/QF3pYa_ZM40?si=Z7CDNNVcvUtSA_Kq)
+
+- **Interstellar Fan Base**  
+🎥 [Watch](https://youtube.com/shorts/pyG00gM5ncM?si=B27XizOJLbfp_2vn)
