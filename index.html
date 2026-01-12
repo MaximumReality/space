@@ -3,24 +3,65 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maximum Reality: Space Sector</title>
+<title>STARLINK_LOGS | Maximum Reality</title>
 <style>
-  body { background:#000; color:#0ff; font-family: 'Courier New', monospace; padding:20px; }
-  h1 { color:#ff00ff; }
-  p { margin-bottom:10px; }
-  a { color:#32cd32; text-decoration:none; }
+  :root { --neon-pink: #ff00ff; --cyber-cyan: #0ff; --alien-green: #32cd32; }
+  body { background:#000; color:var(--cyber-cyan); font-family: 'Courier New', monospace; padding:15px; line-height: 1.4; }
+  
+  .header { border-bottom: 2px solid var(--neon-pink); padding-bottom: 10px; margin-bottom: 20px; }
+  h1 { color:var(--neon-pink); font-size: 1.2rem; text-transform: uppercase; margin: 0; }
+  
+  .log-entry { background: rgba(0, 255, 255, 0.05); border-left: 3px solid var(--cyber-cyan); padding: 10px; margin-bottom: 15px; font-size: 0.85rem; }
+  .timestamp { color: var(--neon-pink); font-weight: bold; font-size: 0.7rem; }
+  
+  .mission-card { border: 1px solid #222; padding: 10px; margin-top: 20px; border-radius: 8px; }
+  .mission-card h2 { color: var(--alien-green); font-size: 1rem; border-bottom: 1px solid #222; padding-bottom: 5px; }
+  
+  .video-btn { display: inline-block; background: transparent; border: 1px solid var(--cyber-cyan); color: var(--cyber-cyan); padding: 8px 12px; margin: 5px 0; text-decoration: none; font-size: 0.75rem; border-radius: 4px; }
+  .video-btn:active { background: var(--cyber-cyan); color: #000; }
+
+  .footer-nav { margin-top: 40px; text-align: center; font-size: 0.9rem; }
+  a { color:var(--alien-green); text-decoration:none; }
 </style>
 </head>
 <body>
-<h1>SPACE SECTOR // MISSION LOGS</h1>
 
-<p>[NEPTUNE // SIGNAL_WEAK] Biological Specialist Azul deployed. Long-range comms unstable.</p>
-<p>[SATURN // INTERVIEW] Translator malfunction. Donut confiscated. Interview inconclusive.</p>
-<p>[MOON // RECREATIONAL] Cards Against Humanity with extraterrestrials complete. No casualties reported.</p>
+<div class="header">
+    <h1>📡 SPACE_SECTOR // MISSION_LOGS</h1>
+    <p style="font-size: 0.6rem; opacity: 0.6;">UPLINK_STABLE // USER: LORI_SIFUENTES</p>
+</div>
 
-<h2>Mission Videos</h2>
-<iframe width="320" height="180" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
+<div class="log-entry">
+    <span class="timestamp">[ 2026-01-12 // 13:32 ]</span><br>
+    [NEPTUNE // SIGNAL_WEAK] Biological Specialist Azul deployed. Long-range comms unstable.
+</div>
 
-<p><a href="https://MaximumReality.GitHub.io/">[RETURN_TO_MAINFRAME]</a></p>
+<div class="log-entry">
+    <span class="timestamp">[ 2026-01-12 // 13:32 ]</span><br>
+    [SATURN // INTERVIEW] Translator malfunction. Donut confiscated. Interview inconclusive.
+</div>
+
+<div class="log-entry">
+    <span class="timestamp">[ 2026-01-12 // 13:32 ]</span><br>
+    [MOON // RECREATIONAL] Cards Against Humanity with extraterrestrials complete. No casualties reported.
+</div>
+
+<div class="mission-card">
+    <h2>🛸 ALIEN_KAYE_REPORTS</h2>
+    <a href="https://youtube.com/shorts/Bp6Dcg4TaJw" class="video-btn">[ RE: HUMAN_COFFEE_ADDICTION ]</a>
+    <a href="https://youtube.com/shorts/vgcMPgtN5fE" class="video-btn">[ RE: DREAMS_OF_QUEEN_KAYE ]</a>
+    <a href="https://youtube.com/shorts/9nQm2OOWCTM" class="video-btn">[ RE: BOWLING_FOR_INTEL ]</a>
+</div>
+
+<div class="mission-card" style="border-color: var(--neon-pink);">
+    <h2 style="color: var(--neon-pink);">🌙 LUNAR_ADVENTURES</h2>
+    <a href="https://youtube.com/shorts/CrlD8DfUmbE" class="video-btn">[ MOONWALK_TEST ]</a>
+    <a href="https://youtube.com/shorts/gdl1axRpY88" class="video-btn">[ MOON_PICNIC_VIBES ]</a>
+</div>
+
+<div class="footer-nav">
+    <p><a href="https://MaximumReality.GitHub.io/">[ RETURN_TO_MAINFRAME ]</a></p>
+</div>
+
 </body>
 </html>
