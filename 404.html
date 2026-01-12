@@ -6,10 +6,7 @@
     <title>404 // SIGNAL LOST</title>
     <link rel="icon" type="image/png" href="https://maximumreality.github.io/space/space_icon.png">
     <style>
-        :root {
-            --neon-pink: #ff00ff;
-            --cyber-cyan: #00f2ff;
-        }
+        :root { --neon-pink: #ff00ff; --cyber-cyan: #00f2ff; }
         body {
             background-color: #000;
             color: var(--cyber-cyan);
@@ -21,49 +18,39 @@
             height: 100vh;
             margin: 0;
             text-align: center;
-            overflow: hidden;
         }
-        .glitch {
-            font-size: 5rem;
-            font-weight: bold;
-            color: var(--neon-pink);
-            text-shadow: 2px 2px var(--cyber-cyan);
-            animation: blink 0.8s infinite;
-        }
-        .icon {
-            width: 100px;
-            filter: grayscale(1) contrast(1.5);
-            margin-bottom: 20px;
-            opacity: 0.5;
-        }
-        @keyframes blink {
-            0% { opacity: 1; }
-            50% { opacity: 0; }
-            100% { opacity: 1; }
-        }
-        .btn {
-            margin-top: 30px;
-            padding: 10px 20px;
-            border: 1px solid var(--cyber-cyan);
-            color: var(--cyber-cyan);
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 0.8rem;
-        }
-        .btn:hover {
-            background: var(--cyber-cyan);
-            color: #000;
-        }
+        .glitch { font-size: 5rem; font-weight: bold; color: var(--neon-pink); text-shadow: 2px 2px var(--cyber-cyan); }
+        .icon { width: 80px; margin-bottom: 20px; filter: hue-rotate(290deg); }
+        .timer-box { border: 1px solid var(--neon-pink); padding: 10px; margin-top: 20px; color: var(--neon-pink); }
+        #countdown { font-weight: bold; font-size: 1.2rem; }
+        .btn { margin-top: 30px; padding: 10px 20px; border: 1px solid var(--cyber-cyan); color: var(--cyber-cyan); text-decoration: none; font-size: 0.8rem; }
     </style>
 </head>
 <body>
 
     <img src="https://maximumreality.github.io/space/space_icon.png" class="icon">
     <div class="glitch">404</div>
-    <p>[!] ERROR: COORDINATES_NOT_FOUND</p>
-    <p style="font-size: 0.7rem; color: var(--neon-pink);">Dr. Azul: "We've drifted outside the mapped sector."</p>
+    <p>[!] ALERT: SECTOR_UNMAPPED</p>
+    <p style="font-size: 0.7rem;">AZUL: "Initiating emergency jump to avoid data corruption."</p>
+
+    <div class="timer-box">
+        SYSTEM PURGE IN: <span id="countdown">10</span>s
+    </div>
     
-    <a href="https://maximumreality.github.io/space/" class="btn">Return to Comm-Link</a>
+    <a href="https://maximumreality.github.io/space/" class="btn">MANUAL OVERRIDE</a>
+
+    <script>
+        let timeLeft = 10;
+        const countdownElement = document.getElementById('countdown');
+        const timer = setInterval(() => {
+            timeLeft--;
+            countdownElement.textContent = timeLeft;
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                window.location.href = "https://maximumreality.github.io/space/";
+            }
+        }, 1000);
+    </script>
 
 </body>
 </html>
