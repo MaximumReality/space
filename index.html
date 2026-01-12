@@ -1,67 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>STARLINK_LOGS | Maximum Reality</title>
-<style>
-  :root { --neon-pink: #ff00ff; --cyber-cyan: #0ff; --alien-green: #32cd32; }
-  body { background:#000; color:var(--cyber-cyan); font-family: 'Courier New', monospace; padding:15px; line-height: 1.4; }
-  
-  .header { border-bottom: 2px solid var(--neon-pink); padding-bottom: 10px; margin-bottom: 20px; }
-  h1 { color:var(--neon-pink); font-size: 1.2rem; text-transform: uppercase; margin: 0; }
-  
-  .log-entry { background: rgba(0, 255, 255, 0.05); border-left: 3px solid var(--cyber-cyan); padding: 10px; margin-bottom: 15px; font-size: 0.85rem; }
-  .timestamp { color: var(--neon-pink); font-weight: bold; font-size: 0.7rem; }
-  
-  .mission-card { border: 1px solid #222; padding: 10px; margin-top: 20px; border-radius: 8px; }
-  .mission-card h2 { color: var(--alien-green); font-size: 1rem; border-bottom: 1px solid #222; padding-bottom: 5px; }
-  
-  .video-btn { display: inline-block; background: transparent; border: 1px solid var(--cyber-cyan); color: var(--cyber-cyan); padding: 8px 12px; margin: 5px 0; text-decoration: none; font-size: 0.75rem; border-radius: 4px; }
-  .video-btn:active { background: var(--cyber-cyan); color: #000; }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPACE_SECTOR | Maximum Reality</title>
+    <style>
+        :root { --neon-pink: #ff00ff; --cyber-cyan: #0ff; --alien-green: #32cd32; --mars-red: #ff4500; }
+        body { background:#000; color:var(--cyber-cyan); font-family: 'Courier New', monospace; padding:15px; line-height: 1.4; padding-bottom: 60px; }
+        
+        .header { border-bottom: 2px solid var(--neon-pink); padding-bottom: 10px; margin-bottom: 20px; text-align: center; }
+        h1 { color:var(--neon-pink); font-size: 1.2rem; text-transform: uppercase; margin: 5px 0; }
+        
+        .log-summary { background: rgba(255, 0, 255, 0.05); border: 1px solid rgba(255, 0, 255, 0.2); padding: 10px; margin-bottom: 20px; font-size: 0.75rem; color: #fff; }
 
-  .footer-nav { margin-top: 40px; text-align: center; font-size: 0.9rem; }
-  a { color:var(--alien-green); text-decoration:none; }
-</style>
+        .mission-sector { margin-top: 30px; border-top: 1px solid #222; padding-top: 15px; }
+        .sector-title { color: var(--neon-pink); font-size: 0.9rem; font-weight: bold; letter-spacing: 2px; margin-bottom: 10px; display: block; }
+        
+        .data-link { 
+            display: flex; align-items: center; background: #0a0a0a; border: 1px solid #1a1a1a; 
+            color: #ccc; text-decoration: none; padding: 12px; margin-bottom: 8px; 
+            border-radius: 6px; font-size: 0.75rem; transition: 0.2s;
+        }
+        .data-link:active { background: #1a1a1a; border-color: var(--cyber-cyan); color: #fff; }
+        .data-link span { margin-right: 10px; filter: grayscale(1); }
+
+        .tag { font-size: 9px; padding: 2px 5px; border-radius: 3px; margin-left: auto; text-transform: uppercase; font-weight: bold; }
+        .tag-blue { background: rgba(0, 242, 255, 0.2); color: var(--cyber-cyan); }
+        .tag-green { background: rgba(50, 205, 50, 0.2); color: var(--alien-green); }
+        .tag-red { background: rgba(255, 69, 0, 0.2); color: var(--mars-red); }
+
+        footer { position: fixed; bottom: 0; left: 0; width: 100%; background: #000; border-top: 1px solid var(--neon-pink); padding: 10px; text-align: center; }
+    </style>
 </head>
 <body>
 
 <div class="header">
-    <h1>📡 SPACE_SECTOR // MISSION_LOGS</h1>
-    <p style="font-size: 0.6rem; opacity: 0.6;">UPLINK_STABLE // USER: LORI_SIFUENTES</p>
+    <p style="font-size: 0.6rem; opacity: 0.6;">[!] UPLINK_TIME: 13:32</p>
+    <h1>STATION_ZERO: SPACE_REPOS</h1>
 </div>
 
-<div class="log-entry">
-    <span class="timestamp">[ 2026-01-12 // 13:32 ]</span><br>
-    [NEPTUNE // SIGNAL_WEAK] Biological Specialist Azul deployed. Long-range comms unstable.
+<div class="log-summary">
+    >> [NEPTUNE] Comms unstable. <br>
+    >> [SATURN] Donut confiscated. <br>
+    >> [MOON] No casualties in Cards Against Humanity.
 </div>
 
-<div class="log-entry">
-    <span class="timestamp">[ 2026-01-12 // 13:32 ]</span><br>
-    [SATURN // INTERVIEW] Translator malfunction. Donut confiscated. Interview inconclusive.
+<div class="mission-sector">
+    <span class="sector-title">DEEP_SPACE_NETWORK</span>
+    <a href="https://youtube.com/shorts/ARcp39_eelo" class="data-link"><span>🪐</span> Azul's Neptune Mission <div class="tag tag-blue">Log</div></a>
+    <a href="https://youtube.com/shorts/-J46nhdY-9o" class="data-link"><span>🪐</span> Neptune Interview <div class="tag tag-blue">Log</div></a>
+    <a href="https://youtube.com/shorts/BxFcV-ptsdA" class="data-link"><span>🪐</span> Neptune Visuals <div class="tag tag-blue">Data</div></a>
+    <a href="https://youtube.com/shorts/cdMqkCasvto" class="data-link"><span>🪐</span> Uranus Broadcast (TARDIS) <div class="tag tag-blue">Easter_Egg</div></a>
 </div>
 
-<div class="log-entry">
-    <span class="timestamp">[ 2026-01-12 // 13:32 ]</span><br>
-    [MOON // RECREATIONAL] Cards Against Humanity with extraterrestrials complete. No casualties reported.
+<div class="mission-sector">
+    <span class="sector-title">LUNAR_OPERATIONS</span>
+    <a href="https://youtube.com/shorts/CrlD8DfUmbE" class="data-link"><span>🌙</span> Azul & Mochkil Moonwalk <div class="tag tag-blue">Visual</div></a>
+    <a href="https://youtube.com/shorts/gdl1axRpY88" class="data-link"><span>🌙</span> Lunar Picnic <div class="tag tag-blue">Vlog</div></a>
+    <a href="https://youtube.com/shorts/WQ8TtE-HR1U" class="data-link"><span>🌙</span> Low Gravity Powers <div class="tag tag-blue">Intel</div></a>
+    <a href="https://youtube.com/shorts/JpP6dwe1VgM" class="data-link"><span>🌙</span> Moon Man Cheese Mission <div class="tag tag-blue">Log</div></a>
+    <a href="https://youtube.com/shorts/IziIZBoPs_o" class="data-link"><span>🌙</span> Bouncing Around (Cartoon) <div class="tag tag-green">Kids_Safe</div></a>
 </div>
 
-<div class="mission-card">
-    <h2>🛸 ALIEN_KAYE_REPORTS</h2>
-    <a href="https://youtube.com/shorts/Bp6Dcg4TaJw" class="video-btn">[ RE: HUMAN_COFFEE_ADDICTION ]</a>
-    <a href="https://youtube.com/shorts/vgcMPgtN5fE" class="video-btn">[ RE: DREAMS_OF_QUEEN_KAYE ]</a>
-    <a href="https://youtube.com/shorts/9nQm2OOWCTM" class="video-btn">[ RE: BOWLING_FOR_INTEL ]</a>
+<div class="mission-sector">
+    <span class="sector-title">MARS_BASE_SECTOR</span>
+    <a href="https://youtube.com/shorts/cRx_Ow-9A4Y" class="data-link"><span>🏙</span> Mars Base Overview <div class="tag tag-red">Intel</div></a>
+    <a href="https://youtube.com/shorts/zGhAbKW70SE" class="data-link"><span>🏙</span> Mars Truck Stop Diner <div class="tag tag-red">Data</div></a>
 </div>
 
-<div class="mission-card" style="border-color: var(--neon-pink);">
-    <h2 style="color: var(--neon-pink);">🌙 LUNAR_ADVENTURES</h2>
-    <a href="https://youtube.com/shorts/CrlD8DfUmbE" class="video-btn">[ MOONWALK_TEST ]</a>
-    <a href="https://youtube.com/shorts/gdl1axRpY88" class="video-btn">[ MOON_PICNIC_VIBES ]</a>
+<div class="mission-sector">
+    <span class="sector-title">ALIEN_KAYE_INTEL_LEAK</span>
+    <a href="https://youtube.com/shorts/Bp6Dcg4TaJw" class="data-link"><span>👽</span> Human Power: Coffee <div class="tag tag-green">Report</div></a>
+    <a href="https://youtube.com/shorts/i_57c8f82yI" class="data-link"><span>👽</span> Mask Slip / Skincare <div class="tag tag-green">Log</div></a>
+    <a href="https://youtube.com/shorts/vgcMPgtN5fE" class="data-link"><span>👽</span> Conquest Dreams <div class="tag tag-green">Intel</div></a>
+    <a href="https://youtube.com/shorts/TfcNXdYidgU" class="data-link"><span>👽</span> Lego Evasion <div class="tag tag-green">Tactical</div></a>
+    <a href="https://youtube.com/shorts/I-Lk3yyU_UE" class="data-link"><span>👽</span> Premium AI Slop <div class="tag tag-green">Log</div></a>
+    <a href="https://youtube.com/shorts/b-mpqnlJUrI" class="data-link"><span>👽</span> Karma Farming Part 1 <div class="tag tag-green">Data</div></a>
+    <a href="https://youtube.com/shorts/s41YpwHz9Z0" class="data-link"><span>👽</span> Karma Farming No Cap <div class="tag tag-green">Data</div></a>
+    <a href="https://youtube.com/shorts/s1DWZk5JLpE" class="data-link"><span>👽</span> Uplink: Day Off <div class="tag tag-green">Log</div></a>
+    <a href="https://youtube.com/shorts/b8eqhX7-Wqg" class="data-link"><span>👽</span> Home Planet Response <div class="tag tag-green">Uplink</div></a>
+    <a href="https://youtube.com/shorts/vPgW3g9Gr7Y" class="data-link"><span>👽</span> Awkward Dance <div class="tag tag-green">Visual</div></a>
+    <a href="https://youtube.com/shorts/blwBPBc-1cw" class="data-link"><span>👽</span> Water Cooler Talk <div class="tag tag-green">Intel</div></a>
+    <a href="https://youtube.com/shorts/uZIxmOwNoqw" class="data-link"><span>👽</span> Identifying The Job <div class="tag tag-green">Log</div></a>
+    <a href="https://youtube.com/shorts/WegzaResYJM" class="data-link"><span>👽</span> Desert UFO Meeting <div class="tag tag-green">Visual</div></a>
+    <a href="https://youtube.com/shorts/9nQm2OOWCTM" class="data-link"><span>👽</span> Bowling for Weaknesses <div class="tag tag-green">Tactical</div></a>
+    <a href="https://youtube.com/shorts/JGO-jUt5tmw" class="data-link"><span>👽</span> Water Main Intel <div class="tag tag-green">Report</div></a>
+    <a href="https://youtube.com/shorts/NXDUSw3NNmE" class="data-link"><span>👽</span> Asogian Advice <div class="tag tag-green">Intel</div></a>
+    <a href="https://youtube.com/shorts/rZkKiNGvPq0" class="data-link"><span>👽</span> Anti-Gravity Device <div class="tag tag-green">Data</div></a>
+    <a href="https://youtube.com/shorts/ttg3lzzH25c" class="data-link"><span>👽</span> Deadliest Weapon Report <div class="tag tag-green">Intel</div></a>
+    <a href="https://youtube.com/shorts/b4bI1H6mzT0" class="data-link"><span>👽</span> The Decaf Plan <div class="tag tag-green">Tactical</div></a>
 </div>
 
-<div class="footer-nav">
-    <p><a href="https://MaximumReality.GitHub.io/">[ RETURN_TO_MAINFRAME ]</a></p>
+<div class="mission-sector">
+    <span class="sector-title">AZUL_ASTROPHYSICS</span>
+    <a href="https://youtube.com/shorts/btbXv5iqewg" class="data-link"><span>🚀</span> Hacking the Spaceship <div class="tag tag-blue">Manual</div></a>
+    <a href="https://youtube.com/shorts/k1k0rsL7ehM" class="data-link"><span>🚀</span> Chibi Space Exploration <div class="tag tag-blue">Visual</div></a>
+    <a href="https://youtube.com/shorts/pyufx8sXZSE" class="data-link"><span>🚀</span> Space Glitch Capsules <div class="tag tag-blue">Intel</div></a>
 </div>
+
+<div class="mission-sector">
+    <span class="sector-title">GALAXY_WIDE_FEEDS</span>
+    <a href="https://youtube.com/shorts/7Xr8_lJ_ffE" class="data-link"><span>🛸</span> Taco UFO Surprise <div class="tag">Misc</div></a>
+    <a href="https://youtube.com/shorts/CN3x7vuTiaU" class="data-link"><span>🛸</span> Lego Space Adventure <div class="tag">Misc</div></a>
+    <a href="https://youtube.com/shorts/771E50M2lgg" class="data-link"><span>🛸</span> Doctors Without Borders <div class="tag">Misc</div></a>
+    <a href="https://youtube.com/shorts/c1Alv5J4Zqc" class="data-link"><span>🛸</span> Blue Marble Experiment <div class="tag">Misc</div></a>
+</div>
+
+<footer style="font-size: 0.7rem;">
+    <a href="https://maximumreality.xyz">[ RETURN_TO_MAINFRAME ]</a>
+</footer>
 
 </body>
 </html>
