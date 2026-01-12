@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 // SIGNAL LOST</title>
+    <link rel="icon" type="image/png" href="https://maximumreality.github.io/space/space_icon.png">
+    <style>
+        :root {
+            --neon-pink: #ff00ff;
+            --cyber-cyan: #00f2ff;
+        }
+        body {
+            background-color: #000;
+            color: var(--cyber-cyan);
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        .glitch {
+            font-size: 5rem;
+            font-weight: bold;
+            color: var(--neon-pink);
+            text-shadow: 2px 2px var(--cyber-cyan);
+            animation: blink 0.8s infinite;
+        }
+        .icon {
+            width: 100px;
+            filter: grayscale(1) contrast(1.5);
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .btn {
+            margin-top: 30px;
+            padding: 10px 20px;
+            border: 1px solid var(--cyber-cyan);
+            color: var(--cyber-cyan);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+        .btn:hover {
+            background: var(--cyber-cyan);
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://maximumreality.github.io/space/space_icon.png" class="icon">
+    <div class="glitch">404</div>
+    <p>[!] ERROR: COORDINATES_NOT_FOUND</p>
+    <p style="font-size: 0.7rem; color: var(--neon-pink);">Dr. Azul: "We've drifted outside the mapped sector."</p>
+    
+    <a href="https://maximumreality.github.io/space/" class="btn">Return to Comm-Link</a>
+
+</body>
+</html>
